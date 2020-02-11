@@ -1,0 +1,20 @@
+uuid: f467b4f0-cb99-477e-8041-376cb83b48a2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cdp_theme
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: cdp_theme_page_title
+theme: cdp_theme
+region: content
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
